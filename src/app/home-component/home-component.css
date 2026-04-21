@@ -259,7 +259,7 @@ img {
 }
 
 .goal-period {
-  background: #2b2b34;
+  background: #6d6de8;
   border: 1px solid rgba(0, 0, 0, 0.35);
   padding: 20px;
   border-radius: 15px;
@@ -286,6 +286,16 @@ img {
 
 .goal-period li {
   margin: 8px 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Ensure all text inside dark cards is white for readability */
+.goal-period,
+.goal-period p,
+.goal-period ul,
+.goal-period a,
+.goal-period h4 {
+  color: rgba(255, 255, 255, 0.92);
 }
 
 /* Cover Letter Styles */
