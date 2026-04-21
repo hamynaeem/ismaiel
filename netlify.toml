@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "dist/e-ismaiel"
+  publish = "dist/e-ismaiel/browser"
 
 [dev]
   command = "npm run start"
