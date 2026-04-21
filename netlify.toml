@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist/e-ismaiel"
+
+[dev]
+  command = "npm run start"
+  port = 4280
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
