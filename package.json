@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "netlify:init": "npx netlify init",
-    "netlify:deploy": "npx netlify deploy --prod --dir=dist/e-ismaiel/browser"
+    "netlify:deploy": "npx netlify deploy --prod --dir=dist/e-ismaiel"
   },
   "prettier": {
     "printWidth": 100,
